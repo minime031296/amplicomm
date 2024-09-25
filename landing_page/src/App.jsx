@@ -2,6 +2,7 @@ import './App.css'
 import TitleHeader from '../components/TitleHeader'
 import Navbar from '../components/Navbar'
 import Slider from '../components/Slider'
+import Title from '../components/Title'
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <TitleHeader/>
       <Navbar/>
       <Slider/>
+      <Title/>
     </>
   )
 }
