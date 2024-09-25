@@ -1,0 +1,22 @@
+.partner-image {
+    width: 50px; /* Default for extra small screens */
+  }
+  
+  @media (min-width: 600px) {
+    .partner-image {
+      width: 75px; /* For small screens */
+    }
+  }
+  
+  @media (min-width: 900px) {
+    .partner-image {
+      width: 100px; /* For medium screens */
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .partner-image {
+      width: 250px; /* For large screens */
+    }
+  }
+  

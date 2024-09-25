@@ -11,8 +11,8 @@ const Title = () => {
       sx={{ fontSize:{ xs: "10px", sm: "12px", md: "16px", lg: "25px" },
             fontWeight:"bold",
             color:"black",
-            marginTop:"2%",
-            marginLeft:"5%"
+            marginTop:{xs:"2%",  sm: "3%", md: "2%", lg: "5%" },
+            marginLeft:{xs:"5%",  sm: "3%", md: "2%", lg: "5%" }
         }}
       >
         Top Brands

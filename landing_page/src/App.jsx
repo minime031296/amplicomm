@@ -3,6 +3,7 @@ import TitleHeader from '../components/TitleHeader'
 import Navbar from '../components/Navbar'
 import Slider from '../components/Slider'
 import Title from '../components/Title'
+import PartnerCmpy from '../components/PartnerCmpy'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Navbar/>
       <Slider/>
       <Title/>
+      <PartnerCmpy/>
     </>
   )
 }
