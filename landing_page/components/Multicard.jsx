@@ -26,197 +26,196 @@ const Multicard = () => {
     return (
         <Box sx={{ margin: "10px 75px" }}>
             <Carousel responsive={responsive}>
-                <Box sx={{
-                    padding: '0',
-                    background: '#fffff',
-                    borderRadius: '8px',
-                    width: "55%",
-                    height: "45vh",
-                    margin: "0 5px",
-                    display: "flex",
-                    flexDirection: "column",
-                    
-                }}>
-                    <Box
-                        sx={{
-                            width: "100%",
-                            height: "90%",
-                            display: "flex",
-                            justifyContent: "center",
-                            alignItems: "center"
-                        }}
-                    >
-                        <img 
-                            src="https://calroy.com/wp-content/uploads/2023/04/Arterosil-HP-Bottle.png" 
-                            alt="Arterosil 60 capsules" 
-                            style={{ width: "100%", height: "100%", objectFit: "contain" }} 
-                        />
-                    </Box>
-                    <Box
-                        sx={{
-                            width: "100%",
-                            height: "10%",
-                            display: "flex",
-                            flexDirection: "column",
-                            alignItems: "flex-start",
-                            padding: "5px 10px" 
-                        }}
-                    >
-                        <Typography sx={{ color: "black", fontSize: {xs:"0.1em", sm:"0.5em", md:"0.8", lg:"0.8em"}, whiteSpace: "nowrap" }}>
-                            Arterosil HP by Calroy
-                        </Typography>
-                        <Typography sx={{ color: "black", fontSize: {xs:"0.1em", sm:"0.5em", md:"0.8", lg:"0.8em"},whiteSpace: "nowrap" }}>
-                           
-                        </Typography>
-                    </Box>
-                    <Box
-                        sx={{
-                            width: "100%",
-                            height: "10%",
-                            display: "flex",
-                            justifyContent: "flex-start",
-                            padding: "5px 10px"
-                        }}
-                    >
-                        <Typography sx={{ color: "#05044c", fontSize: {xs:"0.1em", sm:"0.5em", md:"0.8", lg:"1em"}, margin:"12px 0" }}>
-                            Arterosil
-                        </Typography>
-                    </Box>
-                    <Box
-                        sx={{
-                            width: "100%",
-                            height: "10%",
-                            display: "flex",
-                            justifyContent: "flex-start",
-                            padding: "5px 10px"
-                        }}
-                    >
-                        <Typography sx={{ color: "#05044c", fontWeight: "bold", fontSize: {xs:"0.1em", sm:"0.2em", md:"0.8", lg:"0.8em" } }}>
-                            Rs. 99.00
-                        </Typography>
-                    </Box>
-                    <Box
-                        sx={{
-                            width: "100%",
-                            height: "10%",
-                            display: "flex",
-                            justifyContent: "center",
-                            alignItems: "center"
-                        }}
-                    >
-                        <Button 
-                            variant="contained" 
-                            sx={{
-                                fontSize: {xs:"0.1em", sm:"0.2em", md:"0.8", lg:"0.8em" },
-                                width: "95%",
-                                height: "100%",
-                                bgcolor: "#450263", 
-                                color: "white",
-                            }}
-                        >
-                            Add To Cart
-                        </Button>
-                    </Box>
-                </Box>
+
 
                 
-                <Box sx={{
-                    padding: '0',
-                    background: '#fffff',
-                    borderRadius: '8px',
-                    width: "55%",
-                    height: "45vh",
-                    margin: "0 5px",
-                    display: "flex",
-                    flexDirection: "column"
-                }}>
-                    <Box
-                        sx={{
-                            width: "100%",
-                            height: "90%",
-                            display: "flex",
-                            justifyContent: "center",
-                            alignItems: "center"
-                        }}
-                    >
-                        <img 
-                            src="https://cytomatrix.ca/wp-content/uploads/products/Nattokinase.png" 
-                            alt="Nattokinase" 
-                            style={{ width: "60%", height: "100%", objectFit: "contain" }} 
-                        />
-                    </Box>
-                    <Box
-                        sx={{
-                            width: "100%",
-                            height: "10%",
-                            display: "flex",
-                            flexDirection: "column",
-                            alignItems: "flex-start",
-                            padding: "5px 10px" 
-                        }}
-                    >
-                        <Typography sx={{ color: "black", fontSize: { xs: "0.1em", sm: "0.5em", md: "0.8em", lg: "0.8em" }, whiteSpace: "nowrap" }}>
-                            Allergy Research Group
-                        </Typography>
-                        <Typography sx={{ color: "black", fontSize: { xs: "0.1em", sm: "0.5em", md: "0.8em", lg: "0.8em" }, whiteSpace: "nowrap" }}>
-                            Nattokinase
-                        </Typography>
-                    </Box>
-                    <Box
-                        sx={{
-                            width: "100%",
-                            height: "10%",
-                            display: "flex",
-                            justifyContent: "flex-start",
-                            padding: "5px 10px"
-                        }}
-                    >
-                        <Typography sx={{ color: "#05044c", fontSize: { xs: "0.1em", sm: "0.2em", md: "0.5em", lg: "0.8em" }, margin: "12px 0" }}>
-                            Allergy Research Group
-                        </Typography>
-                    </Box>
-                    <Box
-                        sx={{
-                            width: "100%",
-                            height: "10%",
-                            display: "flex",
-                            justifyContent: "flex-start",
-                            padding: "5px 10px",
-                            gap: "5px"
-                        }}
-                    >
-                        <Typography sx={{ color: "#05044c", fontWeight: "bold", textDecoration: "line-through", fontSize: { xs: "0.1em", sm: "0.5em", md: "0.8em", lg: "0.8em" } }}>
-                            Rs. 115.99
-                        </Typography>
-                        <Typography sx={{ color: "red", fontWeight: "bold", fontSize: { xs: "0.1em", sm: "0.5em", md: "0.8em", lg: "0.8em" } }}>
-                            Rs. 84.00
-                        </Typography>
-                    </Box>
-                    <Box
-                        sx={{
-                            width: "100%",
-                            height: "10%",
-                            display: "flex",
-                            justifyContent: "center",
-                            alignItems: "center"
-                        }}
-                    >
-                        <Button 
-                            variant="contained" 
-                            sx={{
-                                fontSize: { xs: "0.1em", sm: "0.2em", md: "0.8em", lg: "0.8em" },
-                                width: "95%",
-                                height: "100%",
-                                bgcolor: "#450263", 
-                                color: "white",
-                            }}
-                        >
-                            Add To Cart
-                        </Button>
-                    </Box>
-                </Box>
+              
 
                 <Box sx={{
+                        padding: '0',
+                        background: '#fffff',
+                        borderRadius: '8px',
+                        width: "55%",
+                        height: "45vh",
+                        margin: "0 5px",
+                        display: "flex",
+                        flexDirection: "column"
+                    }}>
+                        <Box
+                            sx={{
+                                width: "100%",
+                                height: "90%",
+                                display: "flex",
+                                justifyContent: "center",
+                                alignItems: "center"
+                            }}
+                        >
+                            <img 
+                                src="https://m.media-amazon.com/images/I/71JPfXzvOWL.jpg" 
+                                alt="ProOmega 2000" 
+                                style={{ width: "70%", height: "100%", objectFit: "contain" }} 
+                            />
+                        </Box>
+                        <Box
+                            sx={{
+                                width: "100%",
+                                height: "10%",
+                                display: "flex",
+                                flexDirection: "column",
+                                alignItems: "flex-start",
+                                padding: "5px 10px" 
+                            }}
+                        >
+                            <Typography sx={{ color: "black", fontSize: { xs: "0.1em", sm: "0.5em", md: "0.8em", lg: "0.8em" }, whiteSpace: "nowrap" }}>
+                                Nordic Naturals ProOmega
+                            </Typography>
+                            <Typography sx={{ color: "black", fontSize: { xs: "0.1em", sm: "0.5em", md: "0.8em", lg: "0.8em" } }}>
+                                2000
+                            </Typography>
+                        </Box>
+                        <Box
+                            sx={{
+                                width: "100%",
+                                height: "10%",
+                                display: "flex",
+                                justifyContent: "flex-start",
+                                padding: "5px 10px"
+                            }}
+                        >
+                            <Typography sx={{ color: "#05044c", fontSize: { xs: "0.1em", sm: "0.5em", md: "0.8em", lg: "0.8em" }, margin: "12px 0" }}>
+                                Nordic Naturals
+                            </Typography>
+                        </Box>
+                        <Box
+                            sx={{
+                                width: "100%",
+                                height: "10%",
+                                display: "flex",
+                                justifyContent: "flex-start",
+                                padding: "5px 10px"
+                            }}
+                        >
+                            <Typography sx={{ color: "#05044c", fontWeight: "bold", fontSize: { xs: "0.1em", sm: "0.1em", md: "0.5em", lg: "0.5em" } }}>
+                                Rs. 62.44 - Rs. 112.99
+                            </Typography>
+                        </Box>
+                        <Box
+                            sx={{
+                                width: "100%",
+                                height: "10%",
+                                display: "flex",
+                                justifyContent: "center",
+                                alignItems: "center"
+                            }}
+                        >
+                            <Button 
+                                variant="contained" 
+                                sx={{
+                                    fontSize: { xs: "0.1em", sm: "0.2em", md: "0.8em", lg: "0.5em" },
+                                    width: "95%",
+                                    height: "100%",
+                                    bgcolor: "#450263", 
+                                    color: "white",
+                                }}
+                            >
+                                Add To Cart
+                            </Button>
+                        </Box>
+                    </Box>
+
+                    <Box sx={{
+                        padding: '0',
+                        background: '#fffff',
+                        borderRadius: '8px',
+                        width: "55%",
+                        height: "45vh",
+                        margin: "0 5px",
+                        display: "flex",
+                        flexDirection: "column"
+                    }}>
+                        <Box
+                            sx={{
+                                width: "100%",
+                                height: "90%",
+                                display: "flex",
+                                justifyContent: "center",
+                                alignItems: "center"
+                            }}
+                        >
+                            <img 
+                                src="https://m.media-amazon.com/images/I/71JPfXzvOWL.jpg" 
+                                alt="ProOmega 2000" 
+                                style={{ width: "70%", height: "100%", objectFit: "contain" }} 
+                            />
+                        </Box>
+                        <Box
+                            sx={{
+                                width: "100%",
+                                height: "10%",
+                                display: "flex",
+                                flexDirection: "column",
+                                alignItems: "flex-start",
+                                padding: "5px 10px" 
+                            }}
+                        >
+                            <Typography sx={{ color: "black", fontSize: { xs: "0.1em", sm: "0.5em", md: "0.8em", lg: "0.8em" }, whiteSpace: "nowrap" }}>
+                                Nordic Naturals ProOmega
+                            </Typography>
+                            <Typography sx={{ color: "black", fontSize: { xs: "0.1em", sm: "0.5em", md: "0.8em", lg: "0.8em" } }}>
+                                2000
+                            </Typography>
+                        </Box>
+                        <Box
+                            sx={{
+                                width: "100%",
+                                height: "10%",
+                                display: "flex",
+                                justifyContent: "flex-start",
+                                padding: "5px 10px"
+                            }}
+                        >
+                            <Typography sx={{ color: "#05044c", fontSize: { xs: "0.1em", sm: "0.5em", md: "0.8em", lg: "0.8em" }, margin: "12px 0" }}>
+                                Nordic Naturals
+                            </Typography>
+                        </Box>
+                        <Box
+                            sx={{
+                                width: "100%",
+                                height: "10%",
+                                display: "flex",
+                                justifyContent: "flex-start",
+                                padding: "5px 10px"
+                            }}
+                        >
+                            <Typography sx={{ color: "#05044c", fontWeight: "bold", fontSize: { xs: "0.1em", sm: "0.1em", md: "0.5em", lg: "0.5em" } }}>
+                                Rs. 62.44 - Rs. 112.99
+                            </Typography>
+                        </Box>
+                        <Box
+                            sx={{
+                                width: "100%",
+                                height: "10%",
+                                display: "flex",
+                                justifyContent: "center",
+                                alignItems: "center"
+                            }}
+                        >
+                            <Button 
+                                variant="contained" 
+                                sx={{
+                                    fontSize: { xs: "0.1em", sm: "0.2em", md: "0.8em", lg: "0.5em" },
+                                    width: "95%",
+                                    height: "100%",
+                                    bgcolor: "#450263", 
+                                    color: "white",
+                                }}
+                            >
+                                Add To Cart
+                            </Button>
+                        </Box>
+                    </Box>
+
+                    <Box sx={{
                         padding: '0',
                         background: '#fffff',
                         borderRadius: '8px',
