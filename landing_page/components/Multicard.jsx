@@ -107,7 +107,7 @@ const Multicard = () => {
                         <Button 
                             variant="contained" 
                             sx={{
-                                fontSize: {xs:"0.1em", sm:"0.2em", md:"0.8", lg:"1em" },
+                                fontSize: {xs:"0.1em", sm:"0.2em", md:"0.8", lg:"0.8em" },
                                 width: "95%",
                                 height: "100%",
                                 bgcolor: "#450263", 
@@ -204,7 +204,7 @@ const Multicard = () => {
                         <Button 
                             variant="contained" 
                             sx={{
-                                fontSize: { xs: "0.1em", sm: "0.2em", md: "0.8em", lg: "1em" },
+                                fontSize: { xs: "0.1em", sm: "0.2em", md: "0.8em", lg: "0.8em" },
                                 width: "95%",
                                 height: "100%",
                                 bgcolor: "#450263", 
@@ -280,7 +280,7 @@ const Multicard = () => {
                                 padding: "5px 10px"
                             }}
                         >
-                            <Typography sx={{ color: "#05044c", fontWeight: "bold", fontSize: { xs: "0.1em", sm: "0.1em", md: "0.5em", lg: "0.8em" } }}>
+                            <Typography sx={{ color: "#05044c", fontWeight: "bold", fontSize: { xs: "0.1em", sm: "0.1em", md: "0.5em", lg: "0.6em" } }}>
                                 Rs. 62.44 - Rs. 112.99
                             </Typography>
                         </Box>
@@ -296,7 +296,7 @@ const Multicard = () => {
                             <Button 
                                 variant="contained" 
                                 sx={{
-                                    fontSize: { xs: "0.1em", sm: "0.2em", md: "0.8em", lg: "1em" },
+                                    fontSize: { xs: "0.1em", sm: "0.2em", md: "0.8em", lg: "0.8em" },
                                     width: "95%",
                                     height: "100%",
                                     bgcolor: "#450263", 
@@ -310,86 +310,86 @@ const Multicard = () => {
 
 
                     <Box sx={{
-    padding: '0',
-    background: '#fffff',
-    borderRadius: '8px',
-    width: "55%",
-    height: "45vh",
-    margin: "0 5px",
-    display: "flex",
-    flexDirection: "column"
-}}>
-    <Box sx={{
-        width: "100%",
-        height: "90%",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center"
-    }}>
-        <img 
-            src="https://hebronnutrition.com/cdn/shop/products/410V8a39orL_grande.jpg?v=1652240188" 
-            alt="Ashwagandha" 
-            style={{ width: "60%", height: "100%", objectFit: "contain" }} 
-        />
-    </Box>
-    <Box sx={{
-        width: "100%",
-        height: "10%",
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "flex-start",
-        padding: "5px 10px" 
-    }}>
-        <Typography sx={{ color: "black", fontSize: { xs: "0.1em", sm: "0.2em", md: "0.5em", lg: "0.9em" }, whiteSpace: "nowrap" }}>
-            Pure Encapsulations
-        </Typography>
-        <Typography sx={{ color: "black", fontSize: { xs: "0.1em", sm: "0.2em", md: "0.5em", lg: "0.9em" } }}>
-            Magnesium (glycinate)
-        </Typography>
-    </Box>
-    <Box sx={{
-        width: "100%",
-        height: "10%",
-        display: "flex",
-        justifyContent: "flex-start",
-        padding: "5px 10px"
-    }}>
-        <Typography sx={{ color: "#05044c", fontSize: { xs: "0.1em", sm: "0.2em", md: "0.8em", lg: "1em" }, margin: "12px 0" }}>
-            Pure Encapsulations
-        </Typography>
-    </Box>
-    <Box sx={{
-        width: "100%",
-        height: "10%",
-        display: "flex",
-        justifyContent: "flex-start",
-        padding: "5px 10px"
-    }}>
-        <Typography sx={{ color: "#05044c", fontWeight: "bold", fontSize: { xs: "0.1em", sm: "0.2em", md: "0.5em", lg: "0.9em" } }}>
-            Rs. 30.36 - Rs. 97.44
-        </Typography>
-    </Box>
-    <Box sx={{
-        width: "100%",
-        height: "10%",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center"
-    }}>
-        <Button 
-            variant="contained" 
-            sx={{
-                fontSize: { xs: "0.1em", sm: "0.2em", md: "0.5em", lg: "0.8em" },
-                width: "95%",
-                height: "100%",
-                bgcolor: "#450263", 
-                color: "white",
-            }}
-        >
-            Add To Cart
-        </Button>
-    </Box>
-</Box>
+                padding: '0',
+                background: '#fffff',
+                borderRadius: '8px',
+                width: "55%",
+                height: "45vh",
+                margin: "0 5px",
+                display: "flex",
+                flexDirection: "column"
+            }}>
+                <Box sx={{
+                    width: "100%",
+                    height: "90%",
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center"
+                }}>
+                    <img 
+                        src="https://hebronnutrition.com/cdn/shop/products/410V8a39orL_grande.jpg?v=1652240188" 
+                        alt="Ashwagandha" 
+                        style={{ width: "60%", height: "100%", objectFit: "contain" }} 
+                    />
+                </Box>
+                <Box sx={{
+                    width: "100%",
+                    height: "10%",
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    padding: "5px 10px" 
+                }}>
+                    <Typography sx={{ color: "black", fontSize: { xs: "0.1em", sm: "0.2em", md: "0.5em", lg: "0.9em" }, whiteSpace: "nowrap" }}>
+                        Pure Encapsulations
+                    </Typography>
+                    <Typography sx={{ color: "black", fontSize: { xs: "0.1em", sm: "0.2em", md: "0.5em", lg: "0.9em" } }}>
+                        Magnesium (glycinate)
+                    </Typography>
+                </Box>
+                <Box sx={{
+                    width: "100%",
+                    height: "10%",
+                    display: "flex",
+                    justifyContent: "flex-start",
+                    padding: "5px 10px"
+                }}>
+                    <Typography sx={{ color: "#05044c", fontSize: { xs: "0.1em", sm: "0.2em", md: "0.8em", lg: "1em" }, margin: "12px 0" }}>
+                        Pure Encapsulations
+                    </Typography>
+                </Box>
+                <Box sx={{
+                    width: "100%",
+                    height: "10%",
+                    display: "flex",
+                    justifyContent: "flex-start",
+                    padding: "5px 10px"
+                }}>
+                    <Typography sx={{ color: "#05044c", fontWeight: "bold", fontSize: { xs: "0.1em", sm: "0.2em", md: "0.5em", lg: "0.9em" } }}>
+                        Rs. 30.36 - Rs. 97.44
+                    </Typography>
+                </Box>
+                <Box sx={{
+                    width: "100%",
+                    height: "10%",
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center"
+                }}>
+                    <Button 
+                        variant="contained" 
+                        sx={{
+                            fontSize: { xs: "0.1em", sm: "0.2em", md: "0.5em", lg: "0.8em" },
+                            width: "95%",
+                            height: "100%",
+                            bgcolor: "#450263", 
+                            color: "white",
+                        }}
+                    >
+                        Add To Cart
+                    </Button>
+                </Box>
+            </Box>
 
 <Box sx={{
     padding: '0',
