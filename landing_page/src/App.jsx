@@ -14,6 +14,7 @@ import TitleFive from '../components/TitleFive'
 import BigCards from '../components/BigCards'
 import Youtube from '../components/Youtube'
 import Footer from '../components/Footer'
+import Banner from '../components/Banner'
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
       <TitleTwo/>
       <Multicard/>
       <TitleThree/>
+      <Banner/>
       <ImagesCard/>
       <TitleFour/>
       <ImagesCardsTwo/>
