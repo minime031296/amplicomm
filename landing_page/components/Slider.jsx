@@ -10,7 +10,7 @@ const Slider = () => {
         showArrows={true} 
         interval={3000} 
         infiniteLoop 
-        autoPlay
+        autoplay
         showThumbs={false}
         showStatus={false}
       >
@@ -81,7 +81,7 @@ const Slider = () => {
             <Button 
               variant="contained" 
               sx={{
-                fontSize:{ xs: "5px", sm: "5px", lg: "20px", md: "10px" },
+                fontSize:{ xs: "5px", sm: "5px", lg: "16px", md: "10px" },
                 position: "absolute",
                 width:"10%",
                 height:"7%",
