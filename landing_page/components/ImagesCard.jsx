@@ -19,8 +19,8 @@ const ImagesCard = () => {
             {images.map((image, index) => (
                 <Box key={index} sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                     <Box sx={{
-                        width: {xs:"50px", sm:"50px", md:"100px", lg:"150px"}, 
-                        height: {xs:"50px", sm:"50px", md:"100px", lg:"150px"}, 
+                        width: {xs:"50px", sm:"50px", md:"100px", lg:"120px"}, 
+                        height: {xs:"50px", sm:"50px", md:"100px", lg:"120px"}, 
                         borderRadius: '50%',
                         overflow: 'hidden',
                         display: 'flex',
