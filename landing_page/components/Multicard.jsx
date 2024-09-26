@@ -62,10 +62,10 @@ const Multicard = () => {
                             padding: "5px 10px" 
                         }}
                     >
-                        <Typography sx={{ color: "black", fontSize: {xs:"0.1em", sm:"0.5em", md:"0.8", lg:"1em"}, whiteSpace: "nowrap" }}>
+                        <Typography sx={{ color: "black", fontSize: {xs:"0.1em", sm:"0.5em", md:"0.8", lg:"0.8em"}, whiteSpace: "nowrap" }}>
                             Arterosil HP by Calroy
                         </Typography>
-                        <Typography sx={{ color: "black", fontSize: {xs:"0.1em", sm:"0.5em", md:"0.8", lg:"1em"},whiteSpace: "nowrap" }}>
+                        <Typography sx={{ color: "black", fontSize: {xs:"0.1em", sm:"0.5em", md:"0.8", lg:"0.8em"},whiteSpace: "nowrap" }}>
                            
                         </Typography>
                     </Box>
@@ -91,7 +91,7 @@ const Multicard = () => {
                             padding: "5px 10px"
                         }}
                     >
-                        <Typography sx={{ color: "#05044c", fontWeight: "bold", fontSize: {xs:"0.1em", sm:"0.2em", md:"0.8", lg:"1em" } }}>
+                        <Typography sx={{ color: "#05044c", fontWeight: "bold", fontSize: {xs:"0.1em", sm:"0.2em", md:"0.8", lg:"0.8em" } }}>
                             Rs. 99.00
                         </Typography>
                     </Box>
@@ -155,10 +155,10 @@ const Multicard = () => {
                             padding: "5px 10px" 
                         }}
                     >
-                        <Typography sx={{ color: "black", fontSize: { xs: "0.1em", sm: "0.5em", md: "0.8em", lg: "1em" }, whiteSpace: "nowrap" }}>
+                        <Typography sx={{ color: "black", fontSize: { xs: "0.1em", sm: "0.5em", md: "0.8em", lg: "0.8em" }, whiteSpace: "nowrap" }}>
                             Allergy Research Group
                         </Typography>
-                        <Typography sx={{ color: "black", fontSize: { xs: "0.1em", sm: "0.5em", md: "0.8em", lg: "1em" }, whiteSpace: "nowrap" }}>
+                        <Typography sx={{ color: "black", fontSize: { xs: "0.1em", sm: "0.5em", md: "0.8em", lg: "0.8em" }, whiteSpace: "nowrap" }}>
                             Nattokinase
                         </Typography>
                     </Box>
@@ -185,10 +185,10 @@ const Multicard = () => {
                             gap: "5px"
                         }}
                     >
-                        <Typography sx={{ color: "#05044c", fontWeight: "bold", textDecoration: "line-through", fontSize: { xs: "0.1em", sm: "0.5em", md: "0.8em", lg: "1em" } }}>
+                        <Typography sx={{ color: "#05044c", fontWeight: "bold", textDecoration: "line-through", fontSize: { xs: "0.1em", sm: "0.5em", md: "0.8em", lg: "0.8em" } }}>
                             Rs. 115.99
                         </Typography>
-                        <Typography sx={{ color: "red", fontWeight: "bold", fontSize: { xs: "0.1em", sm: "0.5em", md: "0.8em", lg: "1em" } }}>
+                        <Typography sx={{ color: "red", fontWeight: "bold", fontSize: { xs: "0.1em", sm: "0.5em", md: "0.8em", lg: "0.8em" } }}>
                             Rs. 84.00
                         </Typography>
                     </Box>
@@ -251,10 +251,10 @@ const Multicard = () => {
                                 padding: "5px 10px" 
                             }}
                         >
-                            <Typography sx={{ color: "black", fontSize: { xs: "0.1em", sm: "0.5em", md: "0.8em", lg: "1em" }, whiteSpace: "nowrap" }}>
+                            <Typography sx={{ color: "black", fontSize: { xs: "0.1em", sm: "0.5em", md: "0.8em", lg: "0.8em" }, whiteSpace: "nowrap" }}>
                                 Nordic Naturals ProOmega
                             </Typography>
-                            <Typography sx={{ color: "black", fontSize: { xs: "0.1em", sm: "0.5em", md: "0.8em", lg: "1em" } }}>
+                            <Typography sx={{ color: "black", fontSize: { xs: "0.1em", sm: "0.5em", md: "0.8em", lg: "0.8em" } }}>
                                 2000
                             </Typography>
                         </Box>
@@ -267,7 +267,7 @@ const Multicard = () => {
                                 padding: "5px 10px"
                             }}
                         >
-                            <Typography sx={{ color: "#05044c", fontSize: { xs: "0.1em", sm: "0.5em", md: "0.8em", lg: "1em" }, margin: "12px 0" }}>
+                            <Typography sx={{ color: "#05044c", fontSize: { xs: "0.1em", sm: "0.5em", md: "0.8em", lg: "0.8em" }, margin: "12px 0" }}>
                                 Nordic Naturals
                             </Typography>
                         </Box>
@@ -280,7 +280,7 @@ const Multicard = () => {
                                 padding: "5px 10px"
                             }}
                         >
-                            <Typography sx={{ color: "#05044c", fontWeight: "bold", fontSize: { xs: "0.1em", sm: "0.1em", md: "0.5em", lg: "0.6em" } }}>
+                            <Typography sx={{ color: "#05044c", fontWeight: "bold", fontSize: { xs: "0.1em", sm: "0.1em", md: "0.5em", lg: "0.5em" } }}>
                                 Rs. 62.44 - Rs. 112.99
                             </Typography>
                         </Box>
@@ -296,7 +296,7 @@ const Multicard = () => {
                             <Button 
                                 variant="contained" 
                                 sx={{
-                                    fontSize: { xs: "0.1em", sm: "0.2em", md: "0.8em", lg: "0.8em" },
+                                    fontSize: { xs: "0.1em", sm: "0.2em", md: "0.8em", lg: "0.5em" },
                                     width: "95%",
                                     height: "100%",
                                     bgcolor: "#450263", 
@@ -340,10 +340,10 @@ const Multicard = () => {
                     alignItems: "flex-start",
                     padding: "5px 10px" 
                 }}>
-                    <Typography sx={{ color: "black", fontSize: { xs: "0.1em", sm: "0.2em", md: "0.5em", lg: "0.9em" }, whiteSpace: "nowrap" }}>
+                    <Typography sx={{ color: "black", fontSize: { xs: "0.1em", sm: "0.2em", md: "0.5em", lg: "0.8em" }, whiteSpace: "nowrap" }}>
                         Pure Encapsulations
                     </Typography>
-                    <Typography sx={{ color: "black", fontSize: { xs: "0.1em", sm: "0.2em", md: "0.5em", lg: "0.9em" } }}>
+                    <Typography sx={{ color: "black", fontSize: { xs: "0.1em", sm: "0.2em", md: "0.5em", lg: "0.8em" } }}>
                         Magnesium (glycinate)
                     </Typography>
                 </Box>
@@ -354,7 +354,7 @@ const Multicard = () => {
                     justifyContent: "flex-start",
                     padding: "5px 10px"
                 }}>
-                    <Typography sx={{ color: "#05044c", fontSize: { xs: "0.1em", sm: "0.2em", md: "0.8em", lg: "1em" }, margin: "12px 0" }}>
+                    <Typography sx={{ color: "#05044c", fontSize: { xs: "0.1em", sm: "0.2em", md: "0.8em", lg: "0.8em" }, margin: "12px 0" }}>
                         Pure Encapsulations
                     </Typography>
                 </Box>
@@ -365,7 +365,7 @@ const Multicard = () => {
                     justifyContent: "flex-start",
                     padding: "5px 10px"
                 }}>
-                    <Typography sx={{ color: "#05044c", fontWeight: "bold", fontSize: { xs: "0.1em", sm: "0.2em", md: "0.5em", lg: "0.9em" } }}>
+                    <Typography sx={{ color: "#05044c", fontWeight: "bold", fontSize: { xs: "0.1em", sm: "0.2em", md: "0.5em", lg: "0.5em" } }}>
                         Rs. 30.36 - Rs. 97.44
                     </Typography>
                 </Box>
@@ -379,7 +379,7 @@ const Multicard = () => {
                     <Button 
                         variant="contained" 
                         sx={{
-                            fontSize: { xs: "0.1em", sm: "0.2em", md: "0.5em", lg: "0.8em" },
+                            fontSize: { xs: "0.1em", sm: "0.2em", md: "0.5em", lg: "0.5em" },
                             width: "95%",
                             height: "100%",
                             bgcolor: "#450263", 
@@ -422,10 +422,10 @@ const Multicard = () => {
         alignItems: "flex-start",
         padding: "5px 10px" 
     }}>
-        <Typography sx={{ color: "black", fontSize: { xs: "0.1em", sm: "0.2em", md: "0.8em", lg: "1em" }, whiteSpace: "nowrap" }}>
+        <Typography sx={{ color: "black", fontSize: { xs: "0.1em", sm: "0.2em", md: "0.8em", lg: "0.8em" }, whiteSpace: "nowrap" }}>
             Pure Encapsulations O.N.E
         </Typography>
-        <Typography sx={{ color: "black", fontSize: { xs: "0.1em", sm: "0.2em", md: "0.8em", lg: "1em" } }}>
+        <Typography sx={{ color: "black", fontSize: { xs: "0.1em", sm: "0.2em", md: "0.8em", lg: "0.8em" } }}>
             Multivitamin
         </Typography>
     </Box>
@@ -461,7 +461,7 @@ const Multicard = () => {
         <Button 
             variant="contained" 
             sx={{
-                fontSize: { xs: "0.1em", sm: "0.2em", md: "0.5em", lg: "0.8em" },
+                fontSize: { xs: "0.1em", sm: "0.2em", md: "0.5em", lg: "0.5em" },
                 width: "95%",
                 height: "100%",
                 bgcolor: "#450263", 
@@ -505,10 +505,10 @@ const Multicard = () => {
         alignItems: "flex-start",
         padding: "5px 10px" 
     }}>
-        <Typography sx={{ color: "black", fontSize: { xs: "0.1em", sm: "0.2em", md: "0.8em", lg: "1em" }, whiteSpace: "nowrap" }}>
+        <Typography sx={{ color: "black", fontSize: { xs: "0.1em", sm: "0.2em", md: "0.8em", lg: "0.8em" }, whiteSpace: "nowrap" }}>
             Pure Encapsulations O.N.E
         </Typography>
-        <Typography sx={{ color: "black", fontSize: { xs: "0.1em", sm: "0.2em", md: "0.8em", lg: "1em" } }}>
+        <Typography sx={{ color: "black", fontSize: { xs: "0.1em", sm: "0.2em", md: "0.8em", lg: "0.8em" } }}>
             Multivitamin
         </Typography>
     </Box>
@@ -519,7 +519,7 @@ const Multicard = () => {
         justifyContent: "flex-start",
         padding: "5px 10px"
     }}>
-        <Typography sx={{ color: "#05044c", fontSize: { xs: "0.1em", sm: "0.2em", md: "0.5em", lg: "0.8em" }, margin: "12px 0" }}>
+        <Typography sx={{ color: "#05044c", fontSize: { xs: "0.1em", sm: "0.2em", md: "0.5em", lg: "0.5em" }, margin: "12px 0" }}>
             Pure Encapsulations
         </Typography>
     </Box>
@@ -544,7 +544,7 @@ const Multicard = () => {
         <Button 
             variant="contained" 
             sx={{
-                fontSize: { xs: "0.1em", sm: "0.2em", md: "0.5em", lg: "0.8em" },
+                fontSize: { xs: "0.1em", sm: "0.1em", md: "0.2em", lg: "0.5em" },
                 width: "95%",
                 height: "100%",
                 bgcolor: "#450263", 
